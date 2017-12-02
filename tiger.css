@@ -82,6 +82,8 @@
 	border: 5px dashed #000;
 	background-color: orange;
 	border-radius: 50px;
+	position: relative;
+	top: 0px;
 }
 
 #tflleg{

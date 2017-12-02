@@ -1,20 +1,28 @@
 $(document).ready(function(){
 	var colors = ["white","blue","green","orange","purple","grey","brown","black","pink","yellow"];
+	var roar = new Audio('tigerroar.wav');
+	var purr = new Audio('purr.wav');
+	var elephant = new Audio('elephant.wav');
+	var pop = new Audio('pop.wav');
 	
-	//mousedown and mouseup moves the buttons
-	
-	$('#donotpush').on('click',function(){ 
-		$('.cage').css("border", "10px solid transparent").delay(3000);
-		$('#roara').play();
-		
+	$('#donotpush').on('click', function(){ 
+		$('#donotpush').animate({"margin-left":"15px","bottom":"175px"},50);
+		$('.cage').css("border", "10px solid transparent");
+		setTimeout(
+		function attack(){
+		roar.currentTime = 0;
+		roar.play();
 		$('.octopus').hide();
 		$('.cage').hide();
 		$('#donotpush').hide();
 		$('#scratch').show();
 		$('#reset').show();
+		}
+		,3000);
 	});
 	
 	$('#reset').on('click',function(){ 
+		$('#donotpush').css({"margin-left":"","bottom":""})
 		$('#reset').hide();
 		$('#scratch').hide();
 		$('.cage').css("border", "10px solid #555");
@@ -48,10 +56,18 @@ $(document).ready(function(){
 		if (parseInt(bigger) < 132.3){
 		$('#ebody').css("height", bigger);
 		$('#ebody').css("width", fatter);
+		elephant.currentTime = 0;
+		elephant.play();
 		}
 		else{
-		$('.elephant').css({"background-color":"transparent", "border":"none"});	
+		$('.elephant').css({"background-color":"transparent", "border":"none"});
+		pop.play();		
 		}
+	});
+	
+	$('.tiger').on('click', function(){
+		purr.currentTime = 0;
+		purr.play();
 	});
 	
 	
