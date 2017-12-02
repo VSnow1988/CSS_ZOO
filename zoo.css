@@ -49,3 +49,19 @@ span{
 	
 }
 
+#scratch{
+	z-index: 5;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	display: none;
+}
+
+.elephant:hover{
+	cursor: url("apple1.cur");
+}
+
+audio{
+	display: none;
+}
+

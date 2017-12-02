@@ -1,0 +1,125 @@
+#bhead{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: black;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+#bhead:before{
+	content:"";
+	display:block;
+	background-color: #000;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	left: 5px;
+}
+
+#bhead:after{
+	content:"";
+	display:block;
+	background-color: #000;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	left: 35px;
+	bottom: 30px;
+}
+
+#bleye{
+	background-color: red;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+#breye{
+	background-color: red;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	margin-left: 25px;
+}
+
+#bnose{
+}
+
+#bbody{
+	width: 40px;
+	height: 80px;
+	border-radius: 100px;
+	background-color: black;
+	z-index: -1;
+	position: relative;
+	left: 50px;
+	bottom: 20px;
+}
+
+#bbody:before{
+	content:"";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	transform: rotate(45deg);
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+
+#bbody:after{
+	content:"";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	transform: rotate(45deg);
+	position: relative;
+	top: 50px;
+}
+
+#blwing{
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 140px;
+	left: 760px;
+}
+#blwing:before{
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: #000;
+	position: relative;
+	right: 10px;
+	top: 40px;
+}
+
+
+#brwing{
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 140px;
+	left: 830px;
+}
+#brwing:after{
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: #000;
+	position: relative;
+	left: 40px;
+	bottom: 10px;
+}
+
+

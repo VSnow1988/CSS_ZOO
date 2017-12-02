@@ -73,11 +73,11 @@
 #elrleg{
 	width: 20px;
 	height: 40px;
-	background-color: #333;
 	border-radius: 10px;
 	position: absolute;
 	left: 310px;
 	top: 460px;
+	background-color: #333;
 }
 
 #elfleg{
@@ -108,4 +108,8 @@
 	position: absolute;
 	left: 380px;
 	top: 470px;
+}
+
+.eleg{
+	
 }
