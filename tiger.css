@@ -1,0 +1,134 @@
+#thead{
+	width: 90px;
+	height: 90px;
+	border: 10px dashed #000;
+	border-radius: 50px;
+	background-color: orange;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 50px;
+	z-index: 2;
+}
+
+#tleye{
+	width: 15px;
+	height: 15px;
+	border-radius: 20px;
+	background-color: #000;
+	border: 5px solid green;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+
+#treye{
+	width: 15px;
+	height: 15px;
+	border-radius: 20px;
+	background-color: #000;
+	border: 5px solid green;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#tnose{
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	border-radius: 20px;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+#trear{
+	width: 20px;
+	height: 20px;
+	border: 5px solid orange;
+	background-color: pink;
+	position: absolute;
+	z-index: 0;
+	left: 870px;
+	top: 350px;
+}
+
+#tlear{
+	width: 20px;
+	height: 20px;
+	border: 5px solid orange;
+	background-color: pink;
+	position: absolute;
+	left: 800px;
+	top: 350px;
+	z-index: 0;
+}
+
+#tbody{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	border: 10px dashed #000;
+	border-radius: 150px;
+	position: absolute;
+	z-index: 1;
+	left: 800px;
+	top: 400px;
+}
+
+#ttail{
+	width: 50px;
+	height: 10px;
+	border: 5px dashed #000;
+	background-color: orange;
+	border-radius: 50px;
+}
+
+#tflleg{
+	width: 30px;
+	height: 20px;
+	border: 5px dashed #000;
+	background-color: orange;
+	border-radius: 20px;
+	position: absolute;
+	top: 500px;
+	left: 800px;
+	z-index: 2;
+}
+
+#tfrleg{
+	width: 30px;
+	height: 20px;
+	border: 5px dashed #000;
+	background-color: orange;
+	border-radius: 20px;
+	position: absolute;
+	top: 500px;
+	left: 850px;
+	z-index: 2;
+}
+
+#tlrleg{
+	width: 35px;
+	height: 20px;
+	border: 5px dashed #000;
+	background-color: orange;
+	border-radius: 20px;
+	position: absolute;
+	top: 480px;
+	left: 900px;
+	z-index: 0;
+	
+}
+
+#trrleg{
+	width: 35px;
+	height: 20px;
+	border: 5px dashed #000;
+	background-color: orange;
+	border-radius: 20px;
+	position: absolute;
+	top: 480px;
+	left: 800px;
+	z-index: 0;
+}

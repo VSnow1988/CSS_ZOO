@@ -1,0 +1,111 @@
+#ehead{
+	width: 80px;
+	height: 70px;
+	border-radius: 50px;
+	background-color: #444;
+	margin-left: 55px;
+	position: relative;
+	top: 30px;
+}
+
+#eleye{
+	background-color: #000;
+	border-radius: 10px;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+
+#ereye{
+	background-color: #000;
+	border-radius: 10px;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+#ebody{
+	width: 120px;
+	height: 100px;
+	background-color: #333;
+	border-radius: 50px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+#elear{
+	width: 60px;
+	height: 25px;
+	background-color: #777;
+	border-radius: 10px;
+	border-top: 10px solid #333;
+	position: absolute;
+	left: 290px;
+	top: 350px;
+}
+
+#erear{
+	width: 60px;
+	height: 25px;
+	background-color: #777;
+	border-radius: 10px;
+	border-top: 10px solid #333;
+	position: absolute;
+	left: 370px;
+	top: 350px;
+}
+
+#etrunk{
+	width: 20px;
+	height: 90px;
+	background-color: #666;
+	border-radius: 5px;
+	position: absolute;
+	z-axis: 2;
+	left: 350px;
+	top: 400px;
+}
+
+#elrleg{
+	width: 20px;
+	height: 40px;
+	background-color: #333;
+	border-radius: 10px;
+	position: absolute;
+	left: 310px;
+	top: 460px;
+}
+
+#elfleg{
+	width: 20px;
+	height: 40px;
+	background-color: #333;
+	border-radius: 10px;
+	position: absolute;
+	left: 330px;
+	top: 470px;
+}
+
+#errleg{
+	width: 20px;
+	height: 40px;
+	background-color: #333;
+	border-radius: 10px;
+	position: absolute;
+	left: 400px;
+	top: 460px;
+}
+
+#erfleg{
+	width: 20px;
+	height: 40px;
+	background-color: #333;
+	border-radius: 10px;
+	position: absolute;
+	left: 380px;
+	top: 470px;
+}
